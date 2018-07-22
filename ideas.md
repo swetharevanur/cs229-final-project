@@ -15,9 +15,10 @@
 
 ### Applied project ideas and datasets
 1. Terrorism and war
-    1. [DATA: Correlate of war](http://www.correlatesofwar.org/data-sets)
-    2. [DATA: Uppsala conflict data](http://ucdp.uu.se/)
-    3. [DATA: Terrorism tracker](https://www.trackingterrorism.org/)
-    4. [PAPER: Using predictive learning on COW](https://arxiv.org/pdf/1612.05844.pdf)
+    1. DATA: [Correlate of war](http://www.correlatesofwar.org/data-sets)
+    2. DATA: [Uppsala conflict data](http://ucdp.uu.se/)
+    3. DATA: [Terrorism tracker](https://www.trackingterrorism.org/)
+    4. PAPER: [Using predictive learning on COW](https://arxiv.org/pdf/1612.05844.pdf)
+    5. PAPER: [Deep Graph Translation](https://arxiv.org/abs/1805.09980v2)
 2. Gun violence
-    1. [DATA: Gun violence](https://github.com/jamesqo/gun-violence-data)
+    1. DATA: [Gun violence](https://github.com/jamesqo/gun-violence-data)
