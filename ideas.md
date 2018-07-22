@@ -1,4 +1,4 @@
-### Project ideas
+### Cool papers and project ideas
 1. Morse code translation
     1. https://arxiv.org/abs/1807.04239
 2. Dynamic medical treatment recommendation
@@ -7,7 +7,8 @@
 3. Audio/video temporal synchronization
 4. Using Deep Neural Networks to Translate Multi-lingual Threat Intelligence
     1. https://arxiv.org/abs/1807.07517v1
-5. 
+5. Deep Clustering for Unsupervised Learning of Visual Features
+    1. https://arxiv.org/abs/1807.05520v1
 
 ### Datasets
 1. [Gun violence data](https://github.com/jamesqo/gun-violence-data)
