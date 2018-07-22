@@ -10,6 +10,8 @@
 5. Deep Clustering for Unsupervised Learning of Visual Features
     1. https://arxiv.org/abs/1807.05520v1
 6. Image colorization
+7. Neural architecture search
+    1. https://arxiv.org/abs/1611.01578
 
 ### Applied project ideas and datasets
 1. [Gun violence data](https://github.com/jamesqo/gun-violence-data)
