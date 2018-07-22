@@ -14,8 +14,10 @@
     1. [Keras/TF code sample](https://github.com/BertMoons/QuantizedNeuralNetworks-Keras-Tensorflow)
 
 ### Applied project ideas and datasets
-1. [Gun violence data](https://github.com/jamesqo/gun-violence-data)
-2. [Correlate of war data](http://www.correlatesofwar.org/data-sets)
-    1. [Using predictive learning on COW](https://arxiv.org/pdf/1612.05844.pdf)
-3. [Terrorism tracker](https://www.trackingterrorism.org/)
-4. [Uppsala conflict data](http://ucdp.uu.se/)
+1. Terrorism and war
+    1. [DATA: Correlate of war](http://www.correlatesofwar.org/data-sets)
+    2. [DATA: Uppsala conflict data](http://ucdp.uu.se/)
+    3. [DATA: Terrorism tracker](https://www.trackingterrorism.org/)
+    4. [PAPER: Using predictive learning on COW](https://arxiv.org/pdf/1612.05844.pdf)
+2. Gun violence
+    1. [DATA: Gun violence](https://github.com/jamesqo/gun-violence-data)
