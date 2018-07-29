@@ -12,6 +12,8 @@
     1. [With RL](https://arxiv.org/abs/1611.01578)
 8. Quantized neural networks (QNNs)
     1. [Keras/TF code sample](https://github.com/BertMoons/QuantizedNeuralNetworks-Keras-Tensorflow)
+9. Real-time image morphing with NBBs
+    1. [Neural Best-Buddies: Sparse Cross-Domain Correspondence](https://arxiv.org/pdf/1805.04140.pdf)
 
 ### Applied project ideas and datasets
 1. Terrorism and war
