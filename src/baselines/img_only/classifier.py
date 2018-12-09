@@ -21,13 +21,13 @@ sys.stdout = open(os.path.join('output', 'logs', '%s.log' % model_name), 'a+')
 # Just normalization for validation
 data_transforms = {
     'train': transforms.Compose([
-        transforms.RandomResizedCrop(224, scale = (0.9, 1.0)), 
+        transforms.RandomResizedCrop(299, scale = (0.9, 1.0)), # 224 for ResNets, 299 for Inception
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ]),
     'val': transforms.Compose([
-        transforms.Resize(size = (224, 224)),
+        transforms.Resize(size = (299, 299)), # 224 for ResNets, 299 for Inception
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ]),
@@ -181,6 +181,8 @@ def train_handler(model_name):
         model_conv = torchvision.models.resnet18(pretrained = True)
     elif model_name == 'resnet50':
         model_conv = torchvision.models.resnet50(pretrained = True)
+    elif model_name == 'inception_v3':
+        model_conv = torchvision.models.inception_v3(pretrained = True)
     
     # freeze all layers
     for param in model_conv.parameters():
