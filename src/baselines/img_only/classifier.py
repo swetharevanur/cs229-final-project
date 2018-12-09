@@ -14,7 +14,7 @@ import sklearn
 import sklearn.metrics
 torch.manual_seed(7)
 
-model_name = 'resnet50'
+model_name = 'inception_v3'
 sys.stdout = open(os.path.join('output', 'logs', '%s.log' % model_name), 'a+')
 
 # Data augmentation and normalization for training
